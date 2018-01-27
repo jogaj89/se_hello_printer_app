@@ -3,7 +3,7 @@ from formater import get_formatted
 from formater import SUPPORTED, PLAIN
 from flask import request
 
-moje_imie = "Natalia2"
+moje_imie = "Asia"
 msg = "Hello World!"
 
 
@@ -19,3 +19,7 @@ def index():
 @app.route('/outputs')
 def supported_output():
     return ", ".join(SUPPORTED)
+
+@app.route('/asia')
+def imie():
+    print(moje_imie)
