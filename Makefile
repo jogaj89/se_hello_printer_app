@@ -9,3 +9,6 @@ lint:
 
 run:
 	python main.py
+
+test:
+	PYTHONPATH=. py.test
