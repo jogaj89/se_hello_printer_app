@@ -10,3 +10,7 @@ script:
 
 services:
   - docker
+
+after_success:
+  - make docker_build
+  - make docker_push
