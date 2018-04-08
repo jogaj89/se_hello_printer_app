@@ -82,7 +82,10 @@ Materiały
 
 - https://virtualenvwrapper.readthedocs.io/en/latest/
 
+Badge Status Cake i Travis
+
 .. image:: https://travis-ci.org/jogaj89/se_hello_printer_app.svg?branch=master
     :target: https://travis-ci.org/jogaj89/se_hello_printer_app
 
-  <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=07DER5TcVg&Days=1&Design=1" /></a>
+.. image:: https://app.statuscake.com/button/index.php?Track=07DER5TcVg&Days=1&Design=1
+    :target: https://travis-ci.org/jogaj89/se_hello_printer_app
